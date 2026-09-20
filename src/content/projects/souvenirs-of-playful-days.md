@@ -3,20 +3,17 @@ title: "Souvenirs of Playful Days"
 order: 6
 type: "Team project"   # short label shown as a pill
 role: "Lead programmer, UI/UX, tools, gameplay"
-context: "Group project, school workshop and game jam"
-team: "TODO: how many people, and how many programmers?"
+context: "Group project, school game jam"
+team: "6 people"
 date: "May 2026"
 engine: "Unreal Engine"
 tech: ["C++", "Blueprints"]
 play: "https://impish-mido.itch.io/souvenirs-of-playful-days"
 source: ""
 embed: ""
-# Full width gifs at the top of the page. One or several, they alternate.
-# Put the files in public/media/ and list them here, for example:
-#   banner: ["/media/souvenirs-1.gif", "/media/souvenirs-2.gif"]
-banner: []
+banner: ["/media/souvenirs-1.mp4", "/media/souvenirs-2.mp4"]
 # Gif or screenshot shown on the home page. 16:9 works best, keep gifs under 5 Mo.
-cover: "" # TODO: /media/souvenirs-cover.gif
+cover: "/media/souvenirs-cover.png"
 summary: "Lead programmer on a team project: coordinating the code, integrating everyone's work, and building the tools the team asked for."
 ---
 

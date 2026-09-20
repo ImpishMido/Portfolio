@@ -1,41 +1,34 @@
 ---
 title: "Resident Devil"
 order: 2
-type: "TODO: solo or team?"
-role: "TODO"
-context: "TODO: school project, jam, personal?"
-date: "TODO"
-engine: "TODO: Unreal or Unity?"
-tech: []
+type: "Solo"
+role: "Solo project"
+context: "School exam"
+date: "June 2026"
+engine: "Unreal Engine"
+tech: [C++]
 play: "https://impish-mido.itch.io/resident-devil"
 source: ""
-embed: ""
-# Full width gifs at the top of the page. One or several, they alternate.
-# Put the files in public/media/ and list them here, for example:
-#   banner: ["/media/resident-devil-1.gif", "/media/resident-devil-2.gif"]
-banner: ["/media/resident-devil-1.gif", "/media/resident-devil-2.gif"]
-# Gif or screenshot shown on the home page. 16:9 works best, keep gifs under 5 Mo.
-cover: "/media/resident-devil-cover.gif"
-summary: "TODO: one sentence. This is the line a recruiter reads on the card, so make it about what makes the project interesting, not about the genre."
+embed: "https://www.youtube.com/watch?v=epXCKAGE-4Q"
+banner: ["/media/resident-devil-1.mp4", "/media/resident-devil-2.mp4"]
+cover: "/media/resident-devil-cover.png"
+summary: "A TRPG mixing in Survival Horror elements with high modularity"
 ---
-
-<!-- TODO Lola: this project was missing from the Notion page, so everything here is empty.
-     It sits in second position, right after the Roguelike, which means it is supposed to be
-     one of your strongest pieces. Fill it accordingly:
-     1. What is the game, in two sentences.
-     2. What you coded yourself, system by system.
-     3. The hardest technical problem you hit, and how you got out of it.
-     4. Solo or team, and if team, how many programmers and what you owned.
-     5. A gif at the top and a playable link if there is one. -->
 
 ## What it is
 
-TODO
+A Tactical RPG in which the player must explore a haunted mansion while also managing their health and ammo. They must carefully position themselves and use their move strategically as to defeat multiple foes at once.
 
-## What I did
+## What I made
 
-TODO
+A Grid-Based unit system alongside pathfinding and a basic unit editor. Units can be easily added and modified with a simple Data Table. 
+
+Each unit has a set of moves with its related information (how much exp is needed to unlock it? How much ammo does it have?..) that can be easily tweaked without having to open C++ files. 
+
+Each action has a behaviour class that dictates how it interacts with the game, meaning a single action (e.g. damaging a targeted unit) can be turned into a multitude of different moves. 
+
+I used a lot of what I learned while making my Roguelike Tower Defense game to make this one, just as I used what I learned from this project to improve my Roguelike.
 
 ## What I learned
 
-TODO
+How to properly set up classes and modular systems that allow for easy additions and extensions.

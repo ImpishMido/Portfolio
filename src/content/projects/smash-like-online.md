@@ -10,12 +10,9 @@ tech: ["C++"]
 play: ""
 source: ""
 embed: ""
-# Full width gifs at the top of the page. One or several, they alternate.
-# Put the files in public/media/ and list them here, for example:
-#   banner: ["/media/smash-like-1.gif", "/media/smash-like-2.gif"]
-banner: []
+banner: ["/media/smash-like-1.mp4", "/media/smash-like-2.mp4"]
 # Gif or screenshot shown on the home page. 16:9 works best, keep gifs under 5 Mo.
-cover: "" # TODO: /media/smash-like-cover.gif
+cover: "/media/smash-like-cover.png"
 summary: "Solo project built to learn replication and online multiplayer, including the Epic Online Services setup."
 ---
 

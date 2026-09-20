@@ -9,13 +9,10 @@ engine: "Unreal Engine"
 tech: ["C++"]
 play: ""
 source: ""
-embed: "https://www.youtube.com/watch?v=TwgpDeENvFc"
-# Full width gifs at the top of the page. One or several, they alternate.
-# Put the files in public/media/ and list them here, for example:
-#   banner: ["/media/roguelike-1.gif", "/media/roguelike-2.gif"]
-banner: []
+embed: ""
+banner: ["/media/roguelike-1.mp4", "/media/roguelike-2.mp4"]
 # Gif or screenshot shown on the home page. 16:9 works best, keep gifs under 5 Mo.
-cover: "" # TODO: /media/roguelike-cover.gif
+cover: "/media/roguelike-cover.png"
 summary: "Solo project running since January 2025, where I built a grid editor to stop writing level data by hand."
 ---
 
@@ -43,7 +40,7 @@ I added a grid editor mode inside the project. I draw the grid, I see the result
 and the tool generates a compact code string that the game reads back into generation data.
 
 <div class="video">
-  <iframe src="https://www.youtube-nocookie.com/embed/TwgpDeENvFc" title="Grid editor demo" loading="lazy" allowfullscreen></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/TwgpDeENvFc" title="Grid Editor Showcase" loading="lazy" allowfullscreen></iframe>
 </div>
 
 The interesting part is the format itself: version, width, length, then one line per tile type with
@@ -61,12 +58,6 @@ of breaking the level, which matters as soon as the format evolves and old grids
 
 It saves me time, but the real value is that someone else can now build levels without knowing
 anything about the generation logic. The same tool could become a map editor for players.
-
-Another grid based project I worked on:
-
-<div class="video">
-  <iframe src="https://www.youtube-nocookie.com/embed/epXCKAGE-4Q" title="Grid based project showcase" loading="lazy" allowfullscreen></iframe>
-</div>
 
 ## What I learned
 

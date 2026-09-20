@@ -1,23 +1,19 @@
 ---
 title: "Rolentless"
 order: 3
-type: "Game jam"   # short label shown as a pill
+type: "Game jam"
 role: "Tools programmer, gameplay programmer, sound integration"
 context: "Group project, school game jam"
-team: "TODO: team size"
+team: "8 people"
 date: "September 2026"
 engine: "Unreal Engine"
 tech: ["C++", "Blueprints"]
 play: "https://matricdev.itch.io/rolentless"
 source: ""
-embed: ""
-# Full width gifs at the top of the page. One or several, they alternate.
-# Put the files in public/media/ and list them here, for example:
-#   banner: ["/media/rolentless-1.gif", "/media/rolentless-2.gif"]
-banner: []
-# Gif or screenshot shown on the home page. 16:9 works best, keep gifs under 5 Mo.
-cover: "" # TODO: /media/rolentless-cover.gif
-summary: "Game jam project where I built the systems behind the automatic mini-map and integrated dynamic, evolving music."
+embed: "https://www.youtube.com/watch?v=qBUUlMP--JQ"
+banner: ["/media/rolentless-1.mp4", "/media/rolentless-2.mp4"]
+cover: "/media/rolentless-cover.png"
+summary: "Game jam project where I built the systems behind the dynamic minimap and integrated evolving music."
 ---
 
 <!-- TODO Lola:
@@ -29,15 +25,19 @@ summary: "Game jam project where I built the systems behind the automatic mini-m
 
 ## What it is
 
-TODO: two sentences describing the game.
+A fast-paced stealth game in which the player must infiltrate a highly secured area but with a catch : they're equipped with rocket rollers and cannot stop!
 
 ## What I did
 
-I worked on tools and gameplay. I built systems first, then turned them into gameplay elements,
+I worked on tools and integration, as well as a bit of gameplay. I built systems first, then turned them into gameplay elements,
 the automatic mini-map being the main one. I also handled the sound integration, including music
 that evolves with what happens in the game.
 
 TODO: details on the mini-map and on the music system.
+
+<div class="video">
+  <iframe src="https://www.youtube.com/watch?v=2AKinJUV_fU" title="Evolutive Music Showcase" loading="lazy" allowfullscreen></iframe>
+</div>
 
 ## What I learned
 

@@ -2,11 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\components",
     "\\src\\content",
     "\\src\\content\\projects",
+    "\\src\\layouts",
     "\\src\\pages",
-    "\\src\\pages\\projects"
+    "\\src\\pages\\projects",
+    "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\content\\projects\\roguelike-tower-defense.md",
+  "SelectedNode": "\\src\\content\\projects\\rolentless.md",
   "PreviewInSolutionExplorer": false
 }
