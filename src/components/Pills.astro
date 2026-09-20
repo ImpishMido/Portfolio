@@ -1,0 +1,10 @@
+---
+// Small labels: engine, languages, solo or team. Empty values are skipped.
+const { items = [] } = Astro.props;
+const clean = items.filter(Boolean);
+---
+{clean.length > 0 && (
+  <ul class="pills">
+    {clean.map((item) => <li class="pill">{item}</li>)}
+  </ul>
+)}

@@ -1,0 +1,57 @@
+---
+// One page per markdown file in src/content/projects/.
+import Base from '../../layouts/Base.astro';
+import { projects } from '../../projects.js';
+import YouTube from '../../components/YouTube.astro';
+import Pills from '../../components/Pills.astro';
+import ContactCTA from '../../components/ContactCTA.astro';
+import Banner from '../../components/Banner.astro';
+
+export async function getStaticPaths() {
+  const { projects } = await import('../../projects.js');
+  return projects.map((p) => ({ params: { slug: p.slug } }));
+}
+
+const index = projects.findIndex((p) => p.slug === Astro.params.slug);
+const project = projects[index];
+const previous = projects[index - 1];
+const next = projects[index + 1];
+const f = project.frontmatter;
+const { Content } = project;
+---
+<Base title={`${f.title} - Lola Van Vooren`} description={f.summary}>
+  <Banner slot="banner" images={f.banner ?? []} alt={`${f.title} gameplay`} />
+
+  <p class="muted" style="margin-top:2rem"><a href="/#projects">&larr; All projects</a></p>
+  <h1>{f.title}</h1>
+  <p class="lead">{f.summary}</p>
+  <Pills items={[f.engine, ...(f.tech ?? []), f.type]} />
+
+  <ul class="facts">
+    <li><strong>Role</strong> {f.role}</li>
+    <li><strong>Context</strong> {f.context}</li>
+    <li><strong>Date</strong> {f.date}</li>
+    <li><strong>Made with</strong> {f.engine}{f.tech ? `, ${f.tech.join(', ')}` : ''}</li>
+    {f.team && <li><strong>Team</strong> {f.team}</li>}
+  </ul>
+
+  {(f.play || f.source || f.video) && (
+    <p class="links">
+      {f.play && <a href={f.play}>Play it on itch.io</a>}
+      {f.source && <a href={f.source}>Source code</a>}
+      {f.video && <a href={f.video}>Video</a>}
+    </p>
+  )}
+
+  {/* A YouTube url in the frontmatter is shown here, on top of the write-up. */}
+  {f.embed && <YouTube url={f.embed} title={f.title} />}
+
+  <Content />
+
+  <nav class="pager">
+    <span>{previous && <a href={`/projects/${previous.slug}/`}>&larr; {previous.frontmatter.title}</a>}</span>
+    <span>{next && <a href={`/projects/${next.slug}/`}>{next.frontmatter.title} &rarr;</a>}</span>
+  </nav>
+
+  <ContactCTA />
+</Base>

@@ -1,0 +1,14 @@
+---
+// Embeds a YouTube video in a 16:9 box.
+// Accepts a full watch URL or a bare video id.
+const { url, title = 'Gameplay video' } = Astro.props;
+const id = url.includes('v=') ? url.split('v=')[1].split('&')[0] : url;
+---
+<div class="video">
+  <iframe
+    src={`https://www.youtube-nocookie.com/embed/${id}`}
+    title={title}
+    loading="lazy"
+    allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"
+    allowfullscreen></iframe>
+</div>

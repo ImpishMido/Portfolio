@@ -1,0 +1,58 @@
+---
+// Full width banner at the top of a project page.
+// Accepts gifs, images, or mp4 / webm files (silent autoplay loop).
+// One item: shown alone. Several: they cross-fade every 6 seconds,
+// and the dots let the visitor pick one.
+const { images = [], alt = '' } = Astro.props;
+const list = images.filter(Boolean);
+---
+<div class="banner" data-banner>
+  {list.length === 0 && (
+    <div class="banner-empty">TODO: add a gif in public/media/ and list it in the "banner" field</div>
+  )}
+  {list.map((src, i) => (
+    src.endsWith('.mp4') || src.endsWith('.webm')
+      ? <video src={src} class={i === 0 ? 'is-active' : ''} autoplay muted loop playsinline></video>
+      : <img src={src} alt={alt} class={i === 0 ? 'is-active' : ''} loading={i === 0 ? 'eager' : 'lazy'} />
+  ))}
+  {list.length > 1 && (
+    <div class="banner-dots">
+      {list.map((_, i) => (
+        <button type="button" aria-label={`Show clip ${i + 1}`} aria-current={i === 0 ? 'true' : 'false'}></button>
+      ))}
+    </div>
+  )}
+</div>
+
+<script>
+  document.querySelectorAll('[data-banner]').forEach((banner) => {
+    const slides = banner.querySelectorAll('img, video');
+    const dots = banner.querySelectorAll('.banner-dots button');
+    if (slides.length < 2) return;
+
+    let current = 0;
+    let timer;
+
+    const show = (index) => {
+      slides[current].classList.remove('is-active');
+      dots[current]?.setAttribute('aria-current', 'false');
+      current = index;
+      slides[current].classList.add('is-active');
+      dots[current]?.setAttribute('aria-current', 'true');
+    };
+
+    const start = () => {
+      timer = setInterval(() => show((current + 1) % slides.length), 6000);
+    };
+
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        clearInterval(timer);
+        show(index);
+        start();
+      });
+    });
+
+    start();
+  });
+</script>

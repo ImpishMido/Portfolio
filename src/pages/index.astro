@@ -1,0 +1,115 @@
+---
+import Base from '../layouts/Base.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import ContactCTA from '../components/ContactCTA.astro';
+import { mainProjects, otherWorks } from '../projects.js';
+---
+<Base title="Lola Van Vooren - Video game programmer">
+  <section class="hero">
+    <h1>Lola Van Vooren</h1>
+    <p class="lead">
+      Video game programming student. I like solving problems with algorithms and logic,
+      and building the tools that make a team faster.
+    </p>
+    <!-- TODO: keep this badge up to date, or delete it once the internship is found. -->
+    <span class="status">Looking for an internship, 1 February to 16 April 2027</span>
+  </section>
+
+  <section id="about">
+    <h2>About me</h2>
+    <p>
+      I study Video Game Development at Haute Ecole Albert Jacquard in Namur, Belgium, with a
+      specialisation in programming. I work both on solo projects and on team projects, and I am
+      most comfortable with C++ in Unreal Engine and C# in Unity.
+      <!-- TODO: the CV says 2024-2029 for a bachelor. Either that is a typo, or it needs
+           one line of explanation, because a recruiter will notice it. -->
+    </p>
+    <p>
+      <!-- TODO Lola: two or three sentences here about what you want to do next (gameplay? tools? engine?)
+           and why. This is the part a studio reads to decide if you fit their team. -->
+      What I enjoy most is taking a problem the team keeps hitting and turning it into a tool that
+      removes it for good.
+    </p>
+    <p class="links">
+      <a href="/cv/lola-van-vooren-cv.pdf">Download my CV (PDF)</a>
+      <a href="https://impish-mido.itch.io/">itch.io</a>
+      <!-- TODO: add LinkedIn and GitHub links here. A programmer with no public repository is a red flag. -->
+    </p>
+  </section>
+
+  <section id="tools">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill-card">
+        <h3>Engines</h3>
+        <ul class="pills">
+          <li class="pill is-strong">Unreal Engine</li>
+          <li class="pill is-strong">Unity</li>
+          <li class="pill">Godot</li>
+        </ul>
+        <p class="skill-note">Unreal with C++ on most of my projects.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Programming</h3>
+        <ul class="pills">
+          <li class="pill is-strong">C++</li>
+          <li class="pill is-strong">C#</li>
+          <li class="pill">Java</li>
+        </ul>
+        <p class="skill-note">Gameplay systems, editor tools, and online replication.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Tools</h3>
+        <!-- TODO Lola: add Git, Perforce, Jira, Wwise or FMOD if you really use them.
+             Do not list a tool you cannot talk about in an interview. -->
+        <ul class="pills">
+          <li class="pill is-strong">Visual Studio Code</li>
+          <li class="pill is-strong">Clip Studio Paint</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Languages</h3>
+        <ul class="pills">
+          <li class="pill is-strong">French</li>
+          <li class="pill is-strong">English</li>
+          <li class="pill">Dutch</li>
+        </ul>
+        <p class="skill-note">English learned on my own, used daily.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="problem-solving">
+    <div class="teaser">
+      <h3>One problem I solved</h3>
+      <p>
+        On my roguelike, every level is built from a grid, and I used to type the level data by hand,
+        index by index. So I built a grid editor inside the project: I draw the grid, I preview it,
+        and the tool generates the code the game reads back. Anyone can now build levels without
+        knowing how the generation works.
+      </p>
+      <p class="links">
+        <a href="/projects/roguelike-tower-defense/">See how it works, with the code</a>
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="cards">
+      {mainProjects.map((project) => <ProjectCard project={project} />)}
+    </div>
+  </section>
+
+  <section id="other">
+    <h2>Other works</h2>
+    <p class="muted">Smaller projects, game jams, and work outside gameplay programming.</p>
+    <div class="cards">
+      {otherWorks.map((project) => <ProjectCard project={project} />)}
+    </div>
+  </section>
+
+  <section id="contact">
+    <ContactCTA />
+  </section>
+</Base>

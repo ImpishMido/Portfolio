@@ -1,0 +1,23 @@
+---
+import Pills from './Pills.astro';
+const { project } = Astro.props;
+const f = project.frontmatter;
+const url = `/projects/${project.slug}/`;
+---
+<article class="card">
+  <a href={url}>
+    {f.cover
+      ? <img class="cover" src={f.cover} alt={`${f.title} screenshot`} loading="lazy" />
+      : <div class="cover-empty">TODO: add a gif or a screenshot</div>}
+  </a>
+  <div class="body">
+    <h3><a href={url}>{f.title}</a></h3>
+    <p class="meta">{f.date}</p>
+    <Pills items={[f.engine, ...(f.tech ?? []), f.type]} />
+    <p>{f.summary}</p>
+    <div class="links">
+      <a href={url}>Read more</a>
+      {f.play && f.play.startsWith('http') && <a href={f.play}>Play it</a>}
+    </div>
+  </div>
+</article>
