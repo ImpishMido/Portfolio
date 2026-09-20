@@ -3,7 +3,7 @@ title: "Roguelike Tower Defense"
 order: 1
 type: "Solo"   # short label shown as a pill
 role: "Solo project"
-context: "Personal project, ongoing since January 2025"
+context: "Personal project, wish to make into a game later down the line"
 date: "January 2025 to today"
 engine: "Unreal Engine"
 tech: ["C++"]
