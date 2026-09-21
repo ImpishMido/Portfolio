@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Gits\\Portfolio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\smash-like-online.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\smash-like-online.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\rolentless.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\rolentless.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\resident-devil.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\resident-devil.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\roguelike-tower-defense.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\roguelike-tower-defense.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
@@ -21,18 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\souvenirs-of-playful-days.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\souvenirs-of-playful-days.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\smash-like-online.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\smash-like-online.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\rolentless.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\rolentless.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\resident-devil.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\resident-devil.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\cartomancer.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -98,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -238,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ProjectCard.astro",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\components\\ProjectCard.astro",
               "RelativeDocumentMoniker": "src\\components\\ProjectCard.astro",
@@ -250,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "index.astro",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\pages\\index.astro",
               "RelativeDocumentMoniker": "src\\pages\\index.astro",
@@ -258,12 +258,11 @@
               "RelativeToolTip": "src\\pages\\index.astro",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-20T15:55:08.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T15:55:08.273Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "[slug].astro",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\pages\\projects\\[slug].astro",
               "RelativeDocumentMoniker": "src\\pages\\projects\\[slug].astro",
@@ -275,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "souvenirs-of-playful-days.md",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\souvenirs-of-playful-days.md",
               "RelativeDocumentMoniker": "src\\content\\projects\\souvenirs-of-playful-days.md",
@@ -287,15 +286,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "smash-like-online.md",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\smash-like-online.md",
               "RelativeDocumentMoniker": "src\\content\\projects\\smash-like-online.md",
               "ToolTip": "C:\\Gits\\Portfolio\\src\\content\\projects\\smash-like-online.md",
               "RelativeToolTip": "src\\content\\projects\\smash-like-online.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAACAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-20T13:04:40.231Z"
+              "WhenOpened": "2026-09-20T13:04:40.231Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -323,37 +323,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "rolentless.md",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\rolentless.md",
               "RelativeDocumentMoniker": "src\\content\\projects\\rolentless.md",
               "ToolTip": "C:\\Gits\\Portfolio\\src\\content\\projects\\rolentless.md",
               "RelativeToolTip": "src\\content\\projects\\rolentless.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA9AgAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAnAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-20T13:00:35.353Z"
+              "WhenOpened": "2026-09-20T13:00:35.353Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "resident-devil.md",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\resident-devil.md",
               "RelativeDocumentMoniker": "src\\content\\projects\\resident-devil.md",
               "ToolTip": "C:\\Gits\\Portfolio\\src\\content\\projects\\resident-devil.md",
               "RelativeToolTip": "src\\content\\projects\\resident-devil.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-20T12:55:11.578Z"
+              "WhenOpened": "2026-09-20T12:55:11.578Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "roguelike-tower-defense.md",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\roguelike-tower-defense.md",
               "RelativeDocumentMoniker": "src\\content\\projects\\roguelike-tower-defense.md",
               "ToolTip": "C:\\Gits\\Portfolio\\src\\content\\projects\\roguelike-tower-defense.md",
               "RelativeToolTip": "src\\content\\projects\\roguelike-tower-defense.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-09-20T12:36:45.8Z",
               "EditorCaption": ""

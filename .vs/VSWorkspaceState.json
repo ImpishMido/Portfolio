@@ -10,6 +10,6 @@
     "\\src\\pages\\projects",
     "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\content\\projects\\smash-like-online.md",
+  "SelectedNode": "\\src\\components\\ProjectCard.astro",
   "PreviewInSolutionExplorer": false
 }
