@@ -260,3 +260,25 @@ figcaption { color: var(--muted); font-size: .9rem; margin-top: .5rem; }
   .banner img, .banner video { transition: none; }
   .card { transition: none; }
 }
+
+.play-button {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 12px 30px;
+    margin-top: 0px;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: var(--accent);
+    color: var(--text);
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.play-button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+section {
+    scroll-margin-top: 70px;
+}

@@ -20,10 +20,10 @@ const { title, description = 'Video game programming student, looking for an int
     <header class="site-header">
       <nav class="wrap nav">
         <a class="brand" href="/">Lola Van Vooren</a>
+        <a href="/#tools">Skills</a>
         <a href="/#projects">Projects</a>
-        <a href="/#tools">Tools</a>
         <a href="/#contact">Contact</a>
-        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch theme">Light / dark</button>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch theme">Light / Dark</button>
       </nav>
     </header>
 
@@ -36,8 +36,8 @@ const { title, description = 'Video game programming student, looking for an int
 
     <footer class="site-footer">
       <div class="wrap">
-        Lola Van Vooren, also known as Impish Mido on itch.io.
-        <a href="mailto:lolavanvooren@outlook.com">lolavanvooren@outlook.com</a>
+        Lola Van Vooren, also known as Impish Mido.
+        <a href="mailto:lola@lola-van-vooren.dev">lola@lola-van-vooren.dev</a>
       </div>
     </footer>
     <script is:inline>
@@ -45,7 +45,7 @@ const { title, description = 'Video game programming student, looking for an int
       const stored = localStorage.getItem('theme');
       if (stored) document.documentElement.dataset.theme = stored;
       document.getElementById('theme-toggle').addEventListener('click', () => {
-        const next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+        const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
         document.documentElement.dataset.theme = next;
         localStorage.setItem('theme', next);
       });

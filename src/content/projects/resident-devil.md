@@ -1,6 +1,6 @@
 ---
 title: "Resident Devil"
-order: 2
+order: 3
 type: "Solo"
 role: "Solo project"
 context: "School exam"
@@ -12,7 +12,7 @@ source: ""
 embed: "https://www.youtube.com/watch?v=epXCKAGE-4Q"
 banner: ["/media/resident-devil-1.mp4", "/media/resident-devil-2.mp4"]
 cover: "/media/resident-devil-cover.png"
-summary: "A TRPG mixing in Survival Horror elements with high modularity"
+summary: "A TRPG mixing in Survival Horror elements with high modularity."
 ---
 
 ## What it is

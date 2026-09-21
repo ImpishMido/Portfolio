@@ -14,7 +14,7 @@ source: ""
 embed: ""
 banner: ["/media/astrea-2.mp4", "/media/astrea-1.mp4"]
 cover: "/media/astrea-cover.png"
-summary: "3D Metroidvania. Worked as a sprite artist and UI designer"
+summary: "3D Metroidvania. Worked as a sprite artist and UI designer."
 ---
 
 ## What it is

@@ -17,7 +17,7 @@ const url = `/projects/${project.slug}/`;
     <p>{f.summary}</p>
     <div class="links">
       <a href={url}>Read more</a>
-      {f.play && f.play.startsWith('http') && <a href={f.play}>Play it</a>}
+      {f.play && f.play.startsWith('http') && <a href={f.play} target="_blank">Play it</a>}
     </div>
   </div>
 </article>

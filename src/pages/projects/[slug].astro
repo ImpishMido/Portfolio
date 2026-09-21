@@ -37,7 +37,7 @@ const { Content } = project;
 
   {(f.play || f.source || f.video) && (
     <p class="links">
-      {f.play && <a href={f.play}>Play it</a>}
+      {f.play && <a href={f.play} target="_blank" class="play-button">Play it</a>}
       {f.source && <a href={f.source}>Source code</a>}
       {f.video && <a href={f.video}>Video</a>}
     </p>

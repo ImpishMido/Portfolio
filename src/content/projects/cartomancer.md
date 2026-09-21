@@ -17,13 +17,10 @@ cover: "/media/cartomancer-cover.png"
 summary: "Online card maker. I was the database programmer on the project."
 ---
 
-<!-- TODO Lola: what does "database programmer" mean here? Which database, what did the schema
-     look like, what did you actually write? It is not gameplay code, but it is real work and a
-     studio with an online component will care. Say how many people were on the project too. -->
-
 ## What it is
 
 An online card maker inspired by the likes of Pokemon TCG or Magic: The Gathering.
+The website will go offline sometimes around January 2027.
 
 ## What I made
 
