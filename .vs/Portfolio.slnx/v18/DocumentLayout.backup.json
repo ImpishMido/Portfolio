@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "C:\\Gits\\Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\smash-like-online.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\smash-like-online.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\pages\\index.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\index.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\layouts\\Base.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\layouts\\Base.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\styles\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\rolentless.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\rolentless.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\components\\ContactCTA.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ContactCTA.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\a-game-about-red-lines.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\a-game-about-red-lines.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\pages\\projects\\[slug].astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\projects\\[slug].astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\components\\ProjectCard.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ProjectCard.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\components\\Pills.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Pills.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\components\\Banner.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Banner.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\smash-like-online.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\smash-like-online.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\resident-devil.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -17,18 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\roguelike-tower-defense.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\roguelike-tower-defense.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\pages\\index.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\index.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\components\\ProjectCard.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ProjectCard.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\pages\\projects\\[slug].astro||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\projects\\[slug].astro||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\souvenirs-of-playful-days.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -43,36 +67,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\astreas-path-of-light.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\a-game-about-red-lines.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\a-game-about-red-lines.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\styles\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\layouts\\Base.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\layouts\\Base.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\projects.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\projects.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\components\\YouTube.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\YouTube.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\components\\Banner.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Banner.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\components\\Pills.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Pills.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\components\\ContactCTA.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ContactCTA.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\.github\\workflows\\deploy.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
@@ -98,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "projects.js",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\projects.js",
               "RelativeDocumentMoniker": "src\\projects.js",
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "YouTube.astro",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\components\\YouTube.astro",
               "RelativeDocumentMoniker": "src\\components\\YouTube.astro",
@@ -130,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
               "Title": "Banner.astro",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\components\\Banner.astro",
               "RelativeDocumentMoniker": "src\\components\\Banner.astro",
@@ -190,55 +190,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "Base.astro",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\layouts\\Base.astro",
               "RelativeDocumentMoniker": "src\\layouts\\Base.astro",
               "ToolTip": "C:\\Gits\\Portfolio\\src\\layouts\\Base.astro",
               "RelativeToolTip": "src\\layouts\\Base.astro",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-20T16:49:55.376Z"
+              "WhenOpened": "2026-09-20T16:49:55.376Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "global.css",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\styles\\global.css",
               "RelativeDocumentMoniker": "src\\styles\\global.css",
               "ToolTip": "C:\\Gits\\Portfolio\\src\\styles\\global.css",
               "RelativeToolTip": "src\\styles\\global.css",
-              "ViewState": "AgIAAA4BAAAAAAAAAAAAABoBAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAAAFUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-09-20T16:49:42.035Z"
+              "WhenOpened": "2026-09-20T16:49:42.035Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 4,
               "Title": "ContactCTA.astro",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\components\\ContactCTA.astro",
               "RelativeDocumentMoniker": "src\\components\\ContactCTA.astro",
               "ToolTip": "C:\\Gits\\Portfolio\\src\\components\\ContactCTA.astro",
               "RelativeToolTip": "src\\components\\ContactCTA.astro",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-20T15:56:13.586Z"
+              "WhenOpened": "2026-09-20T15:56:13.586Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 8,
               "Title": "Pills.astro",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\components\\Pills.astro",
               "RelativeDocumentMoniker": "src\\components\\Pills.astro",
               "ToolTip": "C:\\Gits\\Portfolio\\src\\components\\Pills.astro",
               "RelativeToolTip": "src\\components\\Pills.astro",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-09-20T15:56:12.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ProjectCard.astro",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\components\\ProjectCard.astro",
               "RelativeDocumentMoniker": "src\\components\\ProjectCard.astro",
@@ -250,15 +253,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "index.astro",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\pages\\index.astro",
               "RelativeDocumentMoniker": "src\\pages\\index.astro",
               "ToolTip": "C:\\Gits\\Portfolio\\src\\pages\\index.astro",
               "RelativeToolTip": "src\\pages\\index.astro",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-20T15:55:08.273Z"
+              "WhenOpened": "2026-09-20T15:55:08.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -268,13 +272,13 @@
               "RelativeDocumentMoniker": "src\\pages\\projects\\[slug].astro",
               "ToolTip": "C:\\Gits\\Portfolio\\src\\pages\\projects\\[slug].astro",
               "RelativeToolTip": "src\\pages\\projects\\[slug].astro",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAACcAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-09-20T14:08:21.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "souvenirs-of-playful-days.md",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\souvenirs-of-playful-days.md",
               "RelativeDocumentMoniker": "src\\content\\projects\\souvenirs-of-playful-days.md",
@@ -286,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "smash-like-online.md",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\smash-like-online.md",
               "RelativeDocumentMoniker": "src\\content\\projects\\smash-like-online.md",
@@ -294,12 +298,11 @@
               "RelativeToolTip": "src\\content\\projects\\smash-like-online.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-20T13:04:40.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T13:04:40.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "cartomancer.md",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\cartomancer.md",
               "RelativeDocumentMoniker": "src\\content\\projects\\cartomancer.md",
@@ -311,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "astreas-path-of-light.md",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\astreas-path-of-light.md",
               "RelativeDocumentMoniker": "src\\content\\projects\\astreas-path-of-light.md",
@@ -323,20 +326,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "rolentless.md",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\rolentless.md",
               "RelativeDocumentMoniker": "src\\content\\projects\\rolentless.md",
               "ToolTip": "C:\\Gits\\Portfolio\\src\\content\\projects\\rolentless.md",
               "RelativeToolTip": "src\\content\\projects\\rolentless.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAnAQAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwCIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-09-20T13:00:35.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "resident-devil.md",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\resident-devil.md",
               "RelativeDocumentMoniker": "src\\content\\projects\\resident-devil.md",
@@ -344,12 +347,11 @@
               "RelativeToolTip": "src\\content\\projects\\resident-devil.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-20T12:55:11.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T12:55:11.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "roguelike-tower-defense.md",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\roguelike-tower-defense.md",
               "RelativeDocumentMoniker": "src\\content\\projects\\roguelike-tower-defense.md",
@@ -357,12 +359,11 @@
               "RelativeToolTip": "src\\content\\projects\\roguelike-tower-defense.md",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-20T12:36:45.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T12:36:45.8Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "a-game-about-red-lines.md",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\a-game-about-red-lines.md",
               "RelativeDocumentMoniker": "src\\content\\projects\\a-game-about-red-lines.md",
@@ -370,7 +371,8 @@
               "RelativeToolTip": "src\\content\\projects\\a-game-about-red-lines.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-20T12:36:38.022Z"
+              "WhenOpened": "2026-09-20T12:36:38.022Z",
+              "EditorCaption": ""
             }
           ]
         }
