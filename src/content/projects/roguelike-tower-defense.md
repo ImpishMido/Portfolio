@@ -43,19 +43,19 @@ FString AC_GridManager::GenerateCode()
 {
 	FString generatedCode = FString();
 
-	//Version
+	// Version
 	generatedCode.Append("Version:1;");
 
-	//Width and Length
+	// Width and Length
 	generatedCode.Append("Width:" + FString::FromInt(Width) + ";" + "Length:" + FString::FromInt(Length) + ";");
 
-	//Tiles Types
+	// Tiles Types
 	EditorTypeIndexes.Empty();
 
-	int currentLoopIndex = 0;
+	int32 currentLoopIndex = 0;
 
 	for (auto& Type : TileTypes) {
-		if (!(Type == ETileTypes::Free)) { //Starts by indexing every single type on the grid alongside an array with its indexes. Doesn't index free tiles as the grid defaults to free if no type is provided
+		if (Type != ETileTypes::Free) { // Starts by indexing every single type on the grid alongside an array with its indexes. Doesn't index free tiles as the grid defaults to free if no type is provided
 			TArray<int32>& Indexes = EditorTypeIndexes.FindOrAdd(Type);
 			Indexes.Add(currentLoopIndex);
 		}
@@ -64,7 +64,7 @@ FString AC_GridManager::GenerateCode()
 
 	UEnum* EnumPtr = StaticEnum<ETileTypes>();
 
-	for (auto& Type : EditorTypeIndexes) { //Appends to the code the Tile Type index followed by the list of indexes separated by ","
+	for (auto& Type : EditorTypeIndexes) { // Appends to the code the Tile Type index followed by the list of indexes separated by ","
 		int32 enumIndex = EnumPtr->GetIndexByName(EnumPtr->GetNameByValue((int64)Type.Key));
 		generatedCode.Append(FString::FromInt(enumIndex) + ":");
 		for (auto& Int : Type.Value) {
@@ -100,18 +100,18 @@ void AC_GridManager::ReadGridCode(FString GridCode)
 				
 			}
 			else if (Values[0] == TEXT("Width")) {
-				Width = FCString::Atoi(*Values[1]); //Reads the Width
+				Width = FCString::Atoi(*Values[1]); // Reads the Width
 			}
 			else if (Values[0] == TEXT("Length")) {
 				Length = FCString::Atoi(*Values[1]);
-				TileTypes.Init(ETileTypes::Free, Width * Length); //Reads the Length then initializes the tiles types
+				TileTypes.Init(ETileTypes::Free, Width * Length); // Reads the Length then initializes the tiles types
 			}
 			else {
 				int EnumIndex = FCString::Atoi(*Values[0]);
-				if (EnumIndex < static_cast<int32>(ETileTypes::MAX) && EnumIndex > 0) { //Checks if the given type exists. If it doesn't, ignores it alongside its indexes
+				if (EnumIndex < static_cast<int32>(ETileTypes::MAX) && EnumIndex > 0) { // Checks if the given type exists. If it doesn't, ignores it alongside its indexes
 					ETileTypes currentType = static_cast<ETileTypes>(EnumIndex);
 					TArray<FString> Indexes;
-					Values[1].ParseIntoArray(Indexes, TEXT(","), true); //Separates each index then assigns them to the TileTypes array read by the grid generation
+					Values[1].ParseIntoArray(Indexes, TEXT(","), true); // Separates each index then assigns them to the TileTypes array read by the grid generation
 					for (auto& StringInt : Indexes) {
 						int Index = FCString::Atoi(*StringInt);
 						if (TileTypes.IsValidIndex(Index)) {

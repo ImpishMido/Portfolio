@@ -265,20 +265,27 @@ figcaption { color: var(--muted); font-size: .9rem; margin-top: .5rem; }
 
 .play-button {
     display: inline-block;
-    font-size: 2rem;
-    font-weight: bold;
-    padding: 12px 30px;
-    margin-top: 0px;
-    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .7rem 1.5rem;
+    border-radius: 999px;
     text-decoration: none;
-    background-color: var(--line);
-    color: var(--text);
-    transition: transform 0.2s, opacity 0.2s;
+    background: var(--accent);
+    color: #fff;
+    border: 1px solid var(--accent);
+    transition: background-color .15s, transform .15s;
 }
 
-.play-button:hover {
-    transform: scale(1.05);
-    opacity: 0.9;
+.play-button:hover,
+.play-button:focus-visible {
+    background: color-mix(in srgb, var(--accent) 85%, black);
+    text-decoration: none;
+    transform: translateY(-1px);
+}
+
+.play-button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
 }
 
 section {
@@ -297,4 +304,26 @@ section {
 
 pre {
     overflow-x: auto;
+    tab-size: 4;
+    padding: 1rem 1.2rem;
+    border-radius: var(--radius);
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    color: inherit;
+}
+
+.reel-label {
+    margin: 0 0 .7rem;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--muted);
+}
+
+.reel .video {
+    margin-top: 0;
 }
