@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\index.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\components\\ContactCTA.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ContactCTA.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\layouts\\Base.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\layouts\\Base.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\rolentless.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\rolentless.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\components\\ContactCTA.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ContactCTA.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\a-game-about-red-lines.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -98,23 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "projects.js",
-              "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\projects.js",
-              "RelativeDocumentMoniker": "src\\projects.js",
-              "ToolTip": "C:\\Gits\\Portfolio\\src\\projects.js",
-              "RelativeToolTip": "src\\projects.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-09-21T11:12:18.842Z"
             },
             {
               "$type": "Document",
@@ -190,42 +178,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Base.astro",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\layouts\\Base.astro",
               "RelativeDocumentMoniker": "src\\layouts\\Base.astro",
               "ToolTip": "C:\\Gits\\Portfolio\\src\\layouts\\Base.astro",
               "RelativeToolTip": "src\\layouts\\Base.astro",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-09-20T16:49:55.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "global.css",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\styles\\global.css",
               "RelativeDocumentMoniker": "src\\styles\\global.css",
               "ToolTip": "C:\\Gits\\Portfolio\\src\\styles\\global.css",
               "RelativeToolTip": "src\\styles\\global.css",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAAAFUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAAwMkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-09-20T16:49:42.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ContactCTA.astro",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\components\\ContactCTA.astro",
               "RelativeDocumentMoniker": "src\\components\\ContactCTA.astro",
               "ToolTip": "C:\\Gits\\Portfolio\\src\\components\\ContactCTA.astro",
               "RelativeToolTip": "src\\components\\ContactCTA.astro",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-09-20T15:56:13.586Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.astro",
+              "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\pages\\index.astro",
+              "RelativeDocumentMoniker": "src\\pages\\index.astro",
+              "ToolTip": "C:\\Gits\\Portfolio\\src\\pages\\index.astro",
+              "RelativeToolTip": "src\\pages\\index.astro",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwEMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-20T15:55:08.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "projects.js",
+              "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\projects.js",
+              "RelativeDocumentMoniker": "src\\projects.js",
+              "ToolTip": "C:\\Gits\\Portfolio\\src\\projects.js",
+              "RelativeToolTip": "src\\projects.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-09-21T11:12:18.842Z"
             },
             {
               "$type": "Document",
@@ -250,19 +263,6 @@
               "ViewState": "AgIAAAoAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-09-20T15:56:08.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "index.astro",
-              "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\pages\\index.astro",
-              "RelativeDocumentMoniker": "src\\pages\\index.astro",
-              "ToolTip": "C:\\Gits\\Portfolio\\src\\pages\\index.astro",
-              "RelativeToolTip": "src\\pages\\index.astro",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-20T15:55:08.273Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -326,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "rolentless.md",
               "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\rolentless.md",
               "RelativeDocumentMoniker": "src\\content\\projects\\rolentless.md",
@@ -334,8 +334,7 @@
               "RelativeToolTip": "src\\content\\projects\\rolentless.md",
               "ViewState": "AgIAABAAAAAAAAAAAAAqwCIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-20T13:00:35.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T13:00:35.353Z"
             },
             {
               "$type": "Document",
@@ -371,8 +370,7 @@
               "RelativeToolTip": "src\\content\\projects\\a-game-about-red-lines.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-20T12:36:38.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T12:36:38.022Z"
             }
           ]
         }

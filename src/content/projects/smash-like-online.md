@@ -25,7 +25,7 @@ I set up Epic Online Services and worked through replication. Getting game state
 clients and the server without the game falling apart.
 
 This prototype has two playable character. A parent character with no proper moves but all of the functions and stats a character should have and an "Outlaw Egg" character, child of the parent character, that has very basic attacks.
-The prototype lets players connect to a lobby, select their character and vote on a map. This prototype uses a Peer-to-Peer system with the host player also running the server.
+The prototype lets players connect to a lobby, select their character and vote on a map. This prototype uses a Peer-to-Peer system with a listen server.
 The game state is replicated across clients (damage pourcentage, used moves, selected characters, etc.) while the animations are handled by the clients. This was my first attempt at multiplayer replication and it's not perfect by any mean. I struggled a lot with understanding what should and shouldn't be replicated.
 
 I spent at least three days trying to get EOS to work. After going through almost every EOS tutorial and documentation out there, I was finally able to make it work and test it with other people. The embedded gifs showcase a match with two other people as well as a solo training game.

@@ -56,7 +56,7 @@ This game uses a grid system on which the player builds their dungeon. Troops fi
 
 Troops are also made using a modular system similar to the one I made for Resident Devil. They're built using Data Tables and use behaviour classes to dictate how their AI reacts to different situations.
 
-As many troops have unique stats (critical chance, buff, bonus range, etc.) I had to make a modular stat system. This system allows new troops to have unique stats through tags without requiring any new code. I can also specify whether those new stats should be displayed as a range when inspecting a unit, or whether it should be displayed on its information screen at all.
+As many troops have unique stats (critical chance, buff, bonus range, etc.) I had to make a modular stat system. This system allows new troops to have unique stats through Gameplay Tags without requiring any new code. I can also specify whether those new stats should be displayed as a range when inspecting a unit, or whether it should be displayed on its information screen at all.
 When the code needs a stat it looks for its tag. For instance, it will look for the value of "troop.generic.attack_damage" when calculating damage. If I were to add a barbarian troop with a critical hit chance I could create "troop.barbarian.critical_chance" and "troop.barbarian.critical_damage_multiplier" stats for its specific behaviour class to use. Those new stats would automatically display without needing to add anything to the UI or parent class.
 
 ## What changed in two years
