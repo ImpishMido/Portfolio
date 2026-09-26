@@ -26,4 +26,4 @@ I came back to the project a few days later to add sounds (which were completely
 
 ## What I learned
 
-Thinking and taking decisions quickly, focusing on the must-do instead of trying to over-polish when on a time constraint.
+Thinking and making decisions quickly, focusing on the must-do instead of trying to over-polish when on a time constraint.

@@ -12,12 +12,12 @@ source: ""
 embed: "https://www.youtube.com/watch?v=epXCKAGE-4Q"
 banner: ["/media/resident-devil-1.mp4", "/media/resident-devil-2.mp4"]
 cover: "/media/resident-devil-cover.png"
-summary: "A TRPG mixing in Survival Horror elements with high modularity."
+summary: "A TRPG mixing Survival Horror elements with high modularity."
 ---
 
 ## What it is
 
-A Tactical RPG in which the player must explore a haunted mansion while also managing their health and ammo. They must carefully position themselves and use their move strategically as to defeat multiple foes at once.
+A Tactical RPG in which the player must explore a haunted mansion while also managing their health and ammo. They must carefully position themselves and use their move strategically to defeat multiple foes at once.
 
 ## What I made
 

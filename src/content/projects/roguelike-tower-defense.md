@@ -38,12 +38,96 @@ The interesting part is the format itself: version, width, length, then one sect
 the list of indexes it occupies. It exports the indexes for every tile type and writes it out, skipping free
 tiles since the grid defaults to free anyway.
 
-![Generating the grid code](/media/grid-generate-code.png)
+```cpp
+FString AC_GridManager::GenerateCode()
+{
+	FString generatedCode = FString();
+
+	//Version
+	generatedCode.Append("Version:1;");
+
+	//Width and Length
+	generatedCode.Append("Width:" + FString::FromInt(Width) + ";" + "Length:" + FString::FromInt(Length) + ";");
+
+	//Tiles Types
+	EditorTypeIndexes.Empty();
+
+	int currentLoopIndex = 0;
+
+	for (auto& Type : TileTypes) {
+		if (!(Type == ETileTypes::Free)) { //Starts by indexing every single type on the grid alongside an array with its indexes. Doesn't index free tiles as the grid defaults to free if no type is provided
+			TArray<int32>& Indexes = EditorTypeIndexes.FindOrAdd(Type);
+			Indexes.Add(currentLoopIndex);
+		}
+		currentLoopIndex++;
+	}
+
+	UEnum* EnumPtr = StaticEnum<ETileTypes>();
+
+	for (auto& Type : EditorTypeIndexes) { //Appends to the code the Tile Type index followed by the list of indexes separated by ","
+		int32 enumIndex = EnumPtr->GetIndexByName(EnumPtr->GetNameByValue((int64)Type.Key));
+		generatedCode.Append(FString::FromInt(enumIndex) + ":");
+		for (auto& Int : Type.Value) {
+			generatedCode.Append(FString::FromInt(Int));
+			if (!(Type.Value.Last() == Int)) {
+				generatedCode.Append(",");
+			}
+		}
+		generatedCode.Append(";");
+	}
+
+	return generatedCode;
+}
+```
 
 Reading it back parses the string into the generation data. Unknown tile types are ignored instead
 of breaking the level, which matters as soon as the format evolves and old grids are still around.
 
-![Reading the grid code back](/media/grid-read-code.png)
+```cpp
+void AC_GridManager::ReadGridCode(FString GridCode)
+{
+	TileTypes.Empty();
+
+	TArray<FString> CodeParts;
+	GridCode.ParseIntoArray(CodeParts, TEXT(";"), true);
+
+	if (CodeParts.Num() > 2) {
+		for (const FString& CodePart : CodeParts)
+		{
+			TArray<FString> Values;
+			CodePart.ParseIntoArray(Values, TEXT(":"), true);
+			if (Values[0] == TEXT("Version")) {
+				
+			}
+			else if (Values[0] == TEXT("Width")) {
+				Width = FCString::Atoi(*Values[1]); //Reads the Width
+			}
+			else if (Values[0] == TEXT("Length")) {
+				Length = FCString::Atoi(*Values[1]);
+				TileTypes.Init(ETileTypes::Free, Width * Length); //Reads the Length then initializes the tiles types
+			}
+			else {
+				int EnumIndex = FCString::Atoi(*Values[0]);
+				if (EnumIndex < static_cast<int32>(ETileTypes::MAX) && EnumIndex > 0) { //Checks if the given type exists. If it doesn't, ignores it alongside its indexes
+					ETileTypes currentType = static_cast<ETileTypes>(EnumIndex);
+					TArray<FString> Indexes;
+					Values[1].ParseIntoArray(Indexes, TEXT(","), true); //Separates each index then assigns them to the TileTypes array read by the grid generation
+					for (auto& StringInt : Indexes) {
+						int Index = FCString::Atoi(*StringInt);
+						if (TileTypes.IsValidIndex(Index)) {
+							TileTypes[Index] = currentType;
+						}
+					}
+				}
+			}
+		}
+
+	}
+	else {
+		UE_LOG(LogTemp, Warning, TEXT("Invalid Code !"));
+	}
+}
+```
 
 ## Why it was worth the time
 
@@ -59,15 +143,15 @@ Troops are also made using a modular system similar to the one I made for Reside
 As many troops have unique stats (critical chance, buff, bonus range, etc.) I had to make a modular stat system. This system allows new troops to have unique stats through Gameplay Tags without requiring any new code. I can also specify whether those new stats should be displayed as a range when inspecting a unit, or whether it should be displayed on its information screen at all.
 When the code needs a stat it looks for its tag. For instance, it will look for the value of "troop.generic.attack_damage" when calculating damage. If I were to add a barbarian troop with a critical hit chance I could create "troop.barbarian.critical_chance" and "troop.barbarian.critical_damage_multiplier" stats for its specific behaviour class to use. Those new stats would automatically display without needing to add anything to the UI or parent class.
 
-## What changed in two years
+## What changed since early 2025
 
 This project is a passion project of mine and has been in my mind for a long time. 
 
-I started actively developing it about two years ago, although I went through multiple prototypes and early versions. I eventually had to rewrite the whole thing because my previous systems had become too rough to build on. 
+I started actively developing it in January 2025, although I went through multiple prototypes and early versions. I eventually had to rewrite the whole thing because my previous systems had become too rough to build on. 
 
 I'm very much looking to make it as modular as possible, as this game greatly benefits from being able to easily add new content due to its roguelike/roguelite structure.
 
 ## What I learned
 
-Making tools is worth it. Even if it takes more time initally, they definitely make your life easier afterwards.
-This is also my first large-scale project on Unreal and has taught me way more things than any school class ever could.
+Making tools is worth it. Even if it takes more time initially, they definitely make your life easier afterwards.
+This is also my first large-scale project on Unreal and has taught me way more than any class.

@@ -24,8 +24,8 @@ A puzzle game with a toy theme. The player must traverse game boards to uncover 
 
 I was the sole programmer on this project. Beyond writing gameplay code, my job was to integrate other people's work and to build the tools and systems the team needed along the way.
 
-I build the grid system the game needed. Since the main way the player will solve puzzles is by using elements they unlock, I had to make a modular element system. The board manager stores the type of each tile. When the player applies a new type over it, 
-the game checks the Data Asset created by the game designer using my tool to determine which element the tile will become. For instance, applying an ice element on a water-type freezes it. However this mechanic was severly underused and I'd love to use it again in a larger-scale project.
+I built the grid system the game needed. Since the main way the player will solve puzzles is by using elements they unlock, I had to make a modular element system. The board manager stores the type of each tile. When the player applies a new type over it, 
+the game checks the Data Asset created by the game designer using my tool to determine which element the tile will become. For instance, applying an ice element on a water-type freezes it. However this mechanic was severely underused and I'd love to use it again in a larger-scale project.
 
 I also made the NPC and dialogue system, allowing our narrative designers to enter the text they want to display on screen directly through Blueprint classes.
 
