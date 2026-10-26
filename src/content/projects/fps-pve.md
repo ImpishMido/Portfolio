@@ -29,7 +29,7 @@ I also made a Cheat-Proof weapon system. Actors can have the "Ability Component"
 When a player uses a weapon, it sends a RPC to the server asking if it can fire. The server then checks if it's valid (does the player have enough ammo? Are they currently reloading? Etc) then spawns a bullet (or triggers whichever behaviour class the ability has).
 This very system can also be reused for enemies as they can also call the HasAbility interface the component holds to use their own abilities.
 
-I can easily modify the ability stats to drasticly change their behaviour.
+I can easily modify the ability stats to drastically change their behaviour.
 
 <video controls width="600">
   <source src="/media/fps-pve-3.mp4" type="video/mp4" />
