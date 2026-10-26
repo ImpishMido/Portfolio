@@ -1,6 +1,6 @@
 ---
 title: "Astrea's Path of Light"
-order: 11
+order: 12
 minor: true
 type: "Game jam"
 role: "Sprite Artist, UI/UX Design"

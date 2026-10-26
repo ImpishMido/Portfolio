@@ -1,6 +1,6 @@
 ---
 title: "Smash-like Online Game"
-order: 4
+order: 5
 type: "Solo"   # short label shown as a pill
 role: "Solo project"
 context: "Personal project, learning multiplayer"

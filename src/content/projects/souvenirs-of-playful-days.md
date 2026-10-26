@@ -1,6 +1,6 @@
 ---
 title: "Souvenirs of Playful Days"
-order: 6
+order: 7
 type: "Game jam"   # short label shown as a pill
 role: "Sole programmer, UI/UX, tools, gameplay"
 context: "Group project, school game jam"

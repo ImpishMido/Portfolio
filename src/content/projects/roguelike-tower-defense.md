@@ -6,7 +6,7 @@ role: "Solo project"
 context: "Passion project, wish to make into a full game later down the line"
 date: "January 2025 to today"
 engine: "Unreal Engine"
-tech: ["C++"]
+tech: ["C++", "Blueprints"]
 play: ""
 source: ""
 embed: ""

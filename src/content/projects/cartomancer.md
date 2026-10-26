@@ -1,6 +1,6 @@
 ---
 title: "Cartomancer, online card maker"
-order: 10
+order: 11
 minor: true
 type: "Team project"
 role: "Database programmer"

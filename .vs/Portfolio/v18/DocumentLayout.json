@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Gits\\Portfolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\fps-pve.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\fps-pve.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\roguelike-tower-defense.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\roguelike-tower-defense.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\a-game-about-red-lines.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\a-game-about-red-lines.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\rolentless.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\rolentless.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\astreas-path-of-light.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\astreas-path-of-light.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\cartomancer.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\cartomancer.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\resident-devil.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\resident-devil.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\souvenirs-of-playful-days.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\souvenirs-of-playful-days.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Gits\\Portfolio\\src\\content\\projects\\smash-like-online.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\projects\\smash-like-online.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "astreas-path-of-light.md",
+              "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\astreas-path-of-light.md",
+              "RelativeDocumentMoniker": "src\\content\\projects\\astreas-path-of-light.md",
+              "ToolTip": "C:\\Gits\\Portfolio\\src\\content\\projects\\astreas-path-of-light.md",
+              "RelativeToolTip": "src\\content\\projects\\astreas-path-of-light.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-26T14:39:22.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "cartomancer.md",
+              "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\cartomancer.md",
+              "RelativeDocumentMoniker": "src\\content\\projects\\cartomancer.md",
+              "ToolTip": "C:\\Gits\\Portfolio\\src\\content\\projects\\cartomancer.md",
+              "RelativeToolTip": "src\\content\\projects\\cartomancer.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-26T14:39:19.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "resident-devil.md",
+              "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\resident-devil.md",
+              "RelativeDocumentMoniker": "src\\content\\projects\\resident-devil.md",
+              "ToolTip": "C:\\Gits\\Portfolio\\src\\content\\projects\\resident-devil.md",
+              "RelativeToolTip": "src\\content\\projects\\resident-devil.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-26T14:39:16.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "rolentless.md",
+              "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\rolentless.md",
+              "RelativeDocumentMoniker": "src\\content\\projects\\rolentless.md",
+              "ToolTip": "C:\\Gits\\Portfolio\\src\\content\\projects\\rolentless.md",
+              "RelativeToolTip": "src\\content\\projects\\rolentless.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-26T14:39:05.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "roguelike-tower-defense.md",
+              "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\roguelike-tower-defense.md",
+              "RelativeDocumentMoniker": "src\\content\\projects\\roguelike-tower-defense.md",
+              "ToolTip": "C:\\Gits\\Portfolio\\src\\content\\projects\\roguelike-tower-defense.md",
+              "RelativeToolTip": "src\\content\\projects\\roguelike-tower-defense.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-26T14:39:04.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "smash-like-online.md",
+              "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\smash-like-online.md",
+              "RelativeDocumentMoniker": "src\\content\\projects\\smash-like-online.md",
+              "ToolTip": "C:\\Gits\\Portfolio\\src\\content\\projects\\smash-like-online.md",
+              "RelativeToolTip": "src\\content\\projects\\smash-like-online.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-26T14:39:03.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "souvenirs-of-playful-days.md",
+              "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\souvenirs-of-playful-days.md",
+              "RelativeDocumentMoniker": "src\\content\\projects\\souvenirs-of-playful-days.md",
+              "ToolTip": "C:\\Gits\\Portfolio\\src\\content\\projects\\souvenirs-of-playful-days.md",
+              "RelativeToolTip": "src\\content\\projects\\souvenirs-of-playful-days.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-26T14:39:02.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fps-pve.md",
+              "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\fps-pve.md",
+              "RelativeDocumentMoniker": "src\\content\\projects\\fps-pve.md",
+              "ToolTip": "C:\\Gits\\Portfolio\\src\\content\\projects\\fps-pve.md",
+              "RelativeToolTip": "src\\content\\projects\\fps-pve.md",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABwAAADdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-26T14:38:58.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "a-game-about-red-lines.md",
+              "DocumentMoniker": "C:\\Gits\\Portfolio\\src\\content\\projects\\a-game-about-red-lines.md",
+              "RelativeDocumentMoniker": "src\\content\\projects\\a-game-about-red-lines.md",
+              "ToolTip": "C:\\Gits\\Portfolio\\src\\content\\projects\\a-game-about-red-lines.md",
+              "RelativeToolTip": "src\\content\\projects\\a-game-about-red-lines.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-26T14:38:13.777Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

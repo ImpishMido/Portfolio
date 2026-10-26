@@ -1,6 +1,6 @@
 ---
 title: "A Game about Red Lines"
-order: 5
+order: 6
 type: "Game jam"
 role: "Solo project"
 context: "Trijam 332, then improved after the jam"

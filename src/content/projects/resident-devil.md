@@ -1,6 +1,6 @@
 ---
 title: "Resident Devil"
-order: 3
+order: 4
 type: "Solo"
 role: "Solo project"
 context: "School exam"
